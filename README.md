@@ -16,6 +16,7 @@ This program takes the output of the above program tmsh output, parses the comma
 to configure the F5 device. It will use paramiko to upload ssl keys and certificates as well as external monitors
 to the device.
 
+<pre>
 usage: f5_tmsh.py
 
 Rackspace Openstack, F5 Rest from Inventory Generator output
@@ -28,7 +29,7 @@ optional arguments:
   --password PASSWORD   Password to connect to F5.
 
 F5 tmsh parser Licensed "Apache 2.0"
-
+</pre>
 
 Parsing tmsh
 =============
