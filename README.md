@@ -57,3 +57,11 @@ BUGS
 
 Yes it has, this is an alpha version. It has not been tested extensively. It should work with all previous versions
 of f5-config.py
+
+
+TODO
+====
+
+* Way to delete a partition and all associated config (clean slate)
+* Does not create ltm rule for Security irule yet
+* More testing
