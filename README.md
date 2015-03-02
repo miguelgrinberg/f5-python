@@ -37,11 +37,16 @@ Parsing tmsh
 Some considerations are needed when parsing the tmsh. { must be spaced around keywords.
 Example below
 
+
 BAD
+<pre>
 create ltm snatpool /RPC/RPC_SNATPOOL {members replace-all-with {172.29.236.15}}
+</pre>
 
 GOOD
+<pre>
 create ltm snatpool /RPC/RPC_SNATPOOL { members replace-all-with { 172.29.236.15 } }
+</pre>
 
 The parser also expects to see a format like below:
 
